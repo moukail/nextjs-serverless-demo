@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   frontend:
-    container_name: firebase_webapp
+    container_name: nextjs-demo
     user: root
     build:
       context: .docker/frontend
