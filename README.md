@@ -1,3 +1,4 @@
+https://firebase.google.com/docs/hosting/frameworks/nextjs
 ### firebase hosting
 ```
 npm install -g firebase-tools
