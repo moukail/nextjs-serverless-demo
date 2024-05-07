@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  buildPath: /frontend/public
+  phases:
+    build:
+      commands:
+        - npm install
+        - npm run build
+
+  artifacts:
+    baseDirectory: /
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - /frontend/node_modules/**/*

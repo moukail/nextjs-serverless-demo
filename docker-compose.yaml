@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  frontend:
+    container_name: firebase_webapp
+    user: root
+    build:
+      context: .docker/frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+      - 9005:9005
+    volumes:
+      - ./frontend:/var/www
+    tty: true
+
+networks:
+  default:
+    name: moukail
+    external: true
