@@ -20,6 +20,7 @@ firebase hosting:sites:delete moukail-test -f
 ```
 
 ### AWS Amplify
+https://docs.amplify.aws/nextjs/
 #### Add Amplify backend features to your project
 ```
 npm create amplify
